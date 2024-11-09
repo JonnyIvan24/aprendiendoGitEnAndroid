@@ -5,6 +5,11 @@ fun main() {
     listadoDeUsuarios()
     login("email@test.com", "hola1234")
     listadoDeProductos()
+    buscarUsuario(1)
+}
+
+fun buscarUsuario(id: Int) {
+    // return un usuario
 }
 
 fun listadoDeUsuarios() {
