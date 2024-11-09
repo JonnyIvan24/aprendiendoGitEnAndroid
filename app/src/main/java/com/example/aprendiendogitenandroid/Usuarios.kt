@@ -1,5 +1,7 @@
 package com.example.aprendiendogitenandroid
 
-class Usuarios {
-    // TODO agregar información
+class Usuarios constructor(val nombre: String, val apellido: String, val constrasena: String) {
+    fun saludar() {
+        println("Hola soy ${this.nombre}")
+    }
 }
