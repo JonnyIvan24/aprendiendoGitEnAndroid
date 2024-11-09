@@ -4,6 +4,7 @@ fun main() {
     println("Hola")
     listadoDeUsuarios()
     listadoDeProductos()
+    buscarProducto(1)
 }
 
 fun listadoDeUsuarios() {
@@ -12,4 +13,8 @@ fun listadoDeUsuarios() {
 
 fun listadoDeProductos() {
     // return Productos[]
+}
+
+fun buscarProducto(id: Int) {
+    // return Producto
 }
